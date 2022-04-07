@@ -87,3 +87,5 @@ write.table(dfelo, file = "Data_Abricot.csv", sep = ",", row.names = F, quote = 
 
 #On peut faire un beau Barplot
 ggplot(data=eloseq_eric, aes(x = reorder(Fruit,-Elo), y=Elo, fill = Fruit))+geom_bar(stat="identity")
+
+#ESSAI GITHUB UPDATE
